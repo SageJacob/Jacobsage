@@ -1,30 +1,32 @@
 <!DOCTYPE html>
-<html style="height: 100%;">
+<html>
 <head>
 	<style>
 		div > p {
-	    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-	    font-size: 2rem;
-	    padding: 0px;
-	    margin: 0px;
-	    padding-bottom: 6%;
-	    color: #493593;
+			font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+			font-size: 2rem;
+			padding: 13px;
+			margin: 0px;
+			padding-bottom: 6%;
+			color: #493593;
 			white-space: nowrap;
 		}
 		#text-container {
-	    display: flex;
-	    flex-direction: column;
-	    padding-top: 6%;
-	    align-items: center;
+			display: inline-flex;
+			flex-direction: column;
+			padding-top: 20%;
+			padding-left: 2rem;
+			align-items: center;
+			float: right;
 		}
 		@media (max-width: 974px) {
 			#mini-text-container {
 				position: absolute;
-		    left: 94px;
-		    top: 244px;
-		    display: flex!important;
-		    flex-direction: column;
-		    align-items: center;
+				top: 244px;
+				padding-left: 5rem;
+				display: flex !important;
+				flex-direction: column;
+				align-items: center;
 			}
 			div > p {
 				color: white;
@@ -36,9 +38,10 @@
 		}
 	</style>
 </head>
-	<body bgcolor=B0D3FF style="height: 700px;">
-			<div style="height: 100%; float: left;">
-				<img src="iPad.png" style="height: 100%;" usemap="#interact">
+	<body bgcolor=B0D3FF>
+		<div style="display: table; margin: auto;">
+			<div style="display: inline-flex;">
+				<img src="iPad.png" style="position:relative; top:25px;height: 700px;" usemap="#interact">
 				<div id="mini-text-container" style="display: none;">
 					<p>Jacob Sage</p>
 					<p>University of Central Florida</p>
@@ -51,12 +54,12 @@
 				<p>Software Engineer</p>
 			</div>
 			<map name="interact">
-				<area shape="rect" coords="77,95,138,157" href="mailto:jacobsage12@live.com" title="jacobsage12@live.com">
-				<area shape="rect" coords="185,95,240,157" href="https://twitter.com/JacobSageUCF" title="Twitter">
-				<area shape="rect" coords="236,550,290,620" href="https://github.com/SageJacob" title="GitHub">
-				<area shape="rect" coords="185,550,233,620" href="Resume.pdf" title="Resume">
-				<area shape="rect" coords="293,550,343,620" href="https://www.linkedin.com/in/jacob-sage-9a4644173/" title="Linkedin">
-
+				<area shape="rect" coords="75,95,145,157" href="mailto:jacobsage12@live.com" title="jacobsage12@live.com">
+				<area shape="rect" coords="175,95,250,157" href="https://twitter.com/JacobSageUCF" title="Twitter">
+				<area shape="rect" coords="237,550,289,620" href="https://github.com/SageJacob" title="GitHub">
+				<area shape="rect" coords="180,550,234,620" href="Resume.pdf" title="Resume">
+				<area shape="rect" coords="292,550,345,620" href="https://www.linkedin.com/in/jacob-sage-9a4644173/" title="Linkedin">
 			</map>
+		</div>
 	</body>
 </html>
