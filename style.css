@@ -1,0 +1,33 @@
+.background {
+    background-color: rgb(49, 49, 49);
+  }
+
+  .text {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+    padding-top: 5%;
+  }
+
+  .buttons {
+    margin: auto;
+    margin-left: 10%;
+    margin-right: auto;
+  }
+
+  .button {
+    color: white; 
+    background-color: rgb(49, 49, 49);
+    height: 10%;
+    width: 30%;
+    word-wrap: break-word;
+    display: inline-block;
+    padding: 40px 20px;
+    border-radius: 20px;
+    outline: None;
+  }
+
+  .link {
+    text-decoration: None;
+  }
