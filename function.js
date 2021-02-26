@@ -51,7 +51,6 @@ function makeButtons() {
             btn.style.marginLeft = "5%";
             btn.style.width = "80%";
             btn.style.marginBottom = "10px";
-            btn.style.fontSize = "150%";
             head.appendChild(document.createElement("br"));
         }
         else
